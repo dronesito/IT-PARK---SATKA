@@ -1,0 +1,523 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container-1 {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url('img/баннер.jpg');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 100vh;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 148px;
+}
+.logo img {
+    width: 58px;
+    height: 58px;
+    margin-right: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 41px 70px 41px 0px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 437px;
+    display: flex;
+}
+.navigation li {
+    margin-left: 20px;
+}
+.navigation a {
+    text-decoration: none;
+    color: #333;
+}
+.navigation a:hover {
+    text-decoration: underline;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 760px;
+    color: white;
+    text-align: left;
+    padding-left: 159px;
+}
+.title h2 {
+    color: #252A32;
+    font-size: 40px;
+    max-width: 600px;
+    margin: 0 0 30px;
+}
+.title p {
+    color: #252A32;
+    font-size: 18px;
+    padding-bottom: 55px;
+}
+.button {
+    display: inline-block;
+    padding: 18px 46px;
+    margin-top: 20px;
+    background-color: #252A32;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    max-width: 120px;
+    text-align: center;
+}
+.container-2 {
+    background-color: white;
+    padding: 140px 159px;
+    font-size: 40px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.text-content {
+    max-width: 500px;
+    margin-top: 35px;
+}
+.image-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+.image-group {
+    display: flex;
+    margin-bottom: 28px;
+}
+.image-group img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 28px;
+}
+.image-group img:last-child {
+    margin-right: 0;
+}
+.container-2 h3 {
+    margin-bottom: 20px;
+}
+.container-2 p {
+    font-size: 18px;
+}
+.container-3 {
+    background: #F3F3F3;
+    margin-top: 40px;
+    padding: 40px;
+    padding-bottom: 70px;
+}
+.container-3 h4 {
+    color: #252A32;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 30px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service-block1,
+.service-block2,
+.service-block3 {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 35px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 68px;
+    margin: 15px;
+}
+.service-icon {
+    max-width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+.service-block h5 {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #252A32;
+    padding-top: 10px;
+}
+.container-4 {
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 15px;
+}
+.container-4 h4 {
+    color: #252A32;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 30px;
+}
+.development-content {
+    display: flex;
+    gap: 40px;
+}
+.development-block {
+    background-color: white; /* Цвет фона для блока разработки */
+    border-radius: 10px; /* Скругленные углы для блока */
+    width: 640px; /* Устанавливаем ширину блока */
+    height: auto; /* Автоматическая высота блока */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), 0 12px 40px rgba(0, 0, 0, 0.05); /* Сложная тень */
+    padding: 0; /* Убираем отступы внутри блока */
+    display: flex; /* Используем Flexbox для выравнивания */
+    justify-content: space-between; /* Размещаем заголовок и кнопку слева, изображение справа */
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+}
+.development-header {
+    display: flex; /* Используем Flexbox для выравнивания заголовка и изображения */
+    justify-content: space-between; /* Размещаем заголовок и кнопку слева, изображение справа */
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+    margin: 0; /* Убираем отступы у заголовка */
+}
+.header-content {
+    display: flex;
+    flex-direction: column; /* Вертикальное выравнивание заголовка и кнопки */
+    align-items: flex-start; /* Выравнивание по левому краю */
+}
+.development-block h6 {
+    font-size: 24px; /* Размер шрифта заголовка */
+    color: #252A32; /* Цвет заголовка */
+    margin: 76px 52px 10px; /* Убираем отступы у заголовка и добавляем отступ снизу */
+    max-width: 100%; /* Устанавливаем максимальную ширину на 100% */
+    width: 100%; /* Устанавливаем ширину на 100% */
+    word-wrap: break-word; /* Позволяет переносить длинные слова на новую строку */
+}
+.button2 {
+    display: inline-flex; /* Используем inline-flex для выравнивания */
+    justify-content: center; /* Центрируем элементы по горизонтали */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    background-color: #252A32; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-size: 18px; /* Размер шрифта кнопки */
+    max-width: 150px; /* Максимальная ширина кнопки */
+}
+.development-image {
+    max-width: 100%; /* Ограничиваем ширину изображения, чтобы оно не выходило за пределы блока */
+    height: auto; /* Сохраняем пропорции изображения */
+    margin-left: auto; /* Убираем отступ слева */
+}
+.button2 img {
+    margin-left: 10px;
+    width: 20px;
+    height: auto;
+}
+.development-block a {
+    display: block;
+    text-align: center;
+    margin: 60px 52px;
+    max-width: 150px;
+}
+
+
+
+.container-5 {
+    display: flex; /* Используем Flexbox для выравнивания */
+    flex-direction: column; /* Вертикальное выравнивание */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    padding: 40px; /* Отступы внутри контейнера */
+    background-color: #D9D9D9; /* Цвет фона контейнера */
+}
+.container-5 h4{
+    color: #252A32;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 30px
+}
+.blocks-container {
+    display: flex; /* Используем Flexbox для горизонтального размещения блоков */
+    justify-content: space-between; /* Размещаем блоки равномерно */
+    width: 100%; /* Устанавливаем ширину контейнера блоков на 100% */
+}
+.block {
+    background-color: white; /* Цвет фона для блока */
+    border-radius: 25px; /* Скругленные углы */
+    width: 385px; 
+    height: 468px; /* Автоматическая высота блока */
+    padding: 20px; /* Отступы внутри блока */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для блока */
+    text-align: left; /* Центрируем текст внутри блока */
+    margin: 0 10px; /* Отступы между блоками по горизонтали */
+}
+.blocks-container p {
+    text-align: start;
+    font-size: 11px;
+    margin-left: 37px;
+    margin-top: 10px;
+}
+.blocks-container h6 {
+    text-align: start;
+    font-size: 17px;
+    margin-left: 37px;
+    margin-top: 20px;
+}
+.description {
+    text-align: left;
+    font-size: 13px;
+    padding-left: 4px; /* Отступ слева */
+    margin-top: 10px; /* Отступ сверху */
+}
+.strelki {
+    display: flex; /* Используем Flexbox для выравнивания стрелок */
+    justify-content: center; /* Центрируем стрелки по горизонтали */
+    align-items: center; /* Центрируем стрелки по вертикали */
+    margin-top: 20px; /* Отступ сверху для стрелок */
+}
+.arrow {
+    margin: 0 10px; /* Отступы между стрелками по горизонтали */
+    cursor: pointer; /* Изменяем курсор на указатель при наведении */
+}
+.arrow img {
+    width: 30px; /* Установите желаемую ширину стрелки */
+    height: 30px; /* Сохраняем пропорции изображения */
+}
+.newimg {
+    width: 305px;
+    height: 250px;
+    margin-left: 40px;
+
+}
+
+
+
+
+
+.reviews-container h4{
+    color: #252A32;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 140px;
+}
+.review {
+    display: flex; /* Используем Flexbox для выравнивания изображения и текста */
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+    background-color: #ffffff; /* Цвет фона для отзыва */
+    border-radius: 10px; /* Скругленные углы */
+    padding: 15px; /* Отступы внутри отзыва */
+}
+.reviews-container {
+    display: flex;
+    flex-direction: column; /* Вертикальное выравнивание группы отзывов */
+    gap: 20px; /* Отступ между группами отзывов */
+}
+.review-group {
+    display: flex; /* Используем Flexbox для выравнивания внутри группы */
+    justify-content: space-between; /* Размещаем отзывы равномерно */
+    gap: 20px; /* Отступ между отзывами внутри группы */
+}
+.circle-img {
+    margin-right: 15px;
+}
+.review-text {
+    font-size: 16px;
+    max-width: 500px;
+}
+.review-group {
+    margin-left: 143px;
+    margin-right: 160px;
+}
+.review-text p{
+    margin-top: 5px;
+}
+.review-text h5 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+
+}
+
+
+
+
+
+
+.container-6 {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image:url('img/s\ nami.png');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 140px;
+    margin-top: 140px;
+}
+.container-6 h4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 92px;
+}
+.parent-container {
+    display: flex;
+    flex-direction: column; /* Вертикальное выравнивание */
+    align-items: center; /* Центрируем содержимое по горизонтали */
+    color: white; /* Цвет текста */
+    font-size: 18px; /* Размер шрифта */
+    margin-top: 20px; /* Отступ сверху для отделения от заголовка */
+    text-align: center; /* Центрирование текста */
+}
+.text {
+    margin-top: 60px; /* Отступ сверху (при необходимости) */
+    max-width: 620px;
+}
+
+
+.forma {
+    width: 350px; /* Максимальная ширина формы */
+    float: right;
+    margin-right: 180px;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0); /* Фон формы */
+    border-radius: 10px; /* Скругленные углы */
+}
+.form-group {
+    margin-bottom: 20px; /* Отступ между группами полей */
+}
+input {
+    width: 330px; /* Ширина поля ввода */
+    padding: 10px; /* Отступы внутри поля */
+    border: none; /* Убираем рамку */
+    border-bottom: 2px solid white; /* Нижняя граница белого цвета */
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта поля */
+}
+input:focus {
+    outline: none; /* Убираем обводку при фокусе */
+    border-bottom: 2px solid #ffffff; /* Увеличиваем нижнюю границу при фокусе */
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Цвет текста плейсхолдера */
+}
+
+.submit-button {
+    background-color: #252a32; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    border: none; /* Убираем рамку */
+    font-size: 18px; /* Размер шрифта кнопки */
+    cursor: pointer; /* Курсор при наведении */
+    margin-top: 50px;
+    float: right;
+
+}
+textarea {
+    width: 330px; /* Ширина поля ввода */
+    padding: 10px; /* Отступы внутри поля */
+    border: none; /* Убираем рамку */
+    border-bottom: 2px solid white; /* Нижняя граница белого цвета */
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта поля */
+    resize: vertical; /* Позволяет изменять размер по вертикали */
+}
+textarea:focus {
+    outline: none; /* Убираем обводку при фокусе */
+    border-bottom: 2px solid #ffffff; /* Увеличиваем нижнюю границу при фокусе */
+}
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Цвет текста плейсхолдера */
+}
+.submit-button:hover {
+    background-color: #ffffff; /* Цвет фона кнопки при наведении */
+    color: #252A32;
+}
+footer {
+    margin-top: 174px;
+
+}
+.logo-container2 {
+    display: flex;
+    align-items: center;
+    margin: 41px 70px 41px 130px;
+}
+.logo2 img {
+    width: 58px;
+    height: 58px;
+    margin-right: 10px;
+}
+
+.navigation2 ul {
+    list-style-type: none;
+
+    margin-left: 437px;
+    display: flex;
+}
+.navigation2 li {
+    margin-left: 20px;
+}
+.navigation2 a {
+    text-decoration: none;
+    color: #333;
+}
+.navigation2 a:hover {
+    text-decoration: underline;
+}
+.contact-info {
+    display: flex; /* Используем Flexbox для размещения элементов в строку */
+    align-items: center; /* Центрируем по вертикали */
+    margin-bottom: 30px; /* Отступ снизу (при необходимости) */
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.phone {
+    margin-right: 10px; /* Отступ справа для иконки телефона */
+}
+.number {
+    color: #333; /* Цвет текста номера телефона (при необходимости) */
+    font-size: 16px; /* Размер шрифта номера телефона (при необходимости) */
+}
+.email {
+    margin-right: 10px; /* Отступ справа для иконки email */
+}
+.E-mail {
+    color: #333; /* Цвет текста email (при необходимости) */
+    font-size: 16px; /* Размер шрифта email (при необходимости) */
+}
+.position {
+    margin-right: 15px; /* Отступ справа для иконки email */
+}
+.adress {
+    color: #333; /* Цвет текста email (при необходимости) */
+    font-size: 16px; /* Размер шрифта email (при необходимости) */
+}
+.end {
+    display: flex; /* Используем Flexbox для выравнивания */
+    background: #252A32;
+    margin-top: 100px;
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center; /* Центрируем по вертикали (если высота задана) */
+    padding: 20px 0; /* Отступы сверху и снизу (по желанию) */
+}
+.endtext {
+    text-align: center; /* Центрирование текста */
+    color: #ffffff; /* Цвет текста (при необходимости) */
+    font-size: 14px; /* Размер шрифта (при необходимости) */
+}
